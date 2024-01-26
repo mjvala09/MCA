@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:textSize="25dp"
+        android:text="ANDROID"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/toggle_btn"
+                android:text="ON"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/alertDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALERT" />
+
+            <Button
+                android:id="@+id/timeDatePickerDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TIMEPICKER" />
+
+            <Button
+                android:id="@+id/progressBarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROGRESS" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/progressDialogBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROGRESS DIALOG" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <AutoCompleteTextView
+                android:id="@+id/cityAuto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City" />
+            <MultiAutoCompleteTextView
+                android:id="@+id/skillsMulti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Skills" />
+
+            <Button
+                android:id="@+id/saveInSharedPreferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="save in SP" />
+            <Button
+                android:id="@+id/resetFromSharedPreferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="reset from SP" />
+            <Button
+                android:id="@+id/databaseBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DATABASE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANIMATION" />
+            <Button
+                android:id="@+id/audioBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AUDIO" />
+            <Button
+                android:id="@+id/videoBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIDEO" />
+            <Button
+                android:id="@+id/imageBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IMAGE" />
+            <Button
+                android:id="@+id/sendReceiveSMS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SMS" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

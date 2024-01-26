@@ -1,0 +1,7 @@
+city = ('Rajkot', 'junagadh', 'keshod', 'veraval')
+print('keshod' in city)
+print('rajkot' in city)
+print('Rajkot' in city)
+print('keshod' not in city)
+print('rajkot' not in city)
+print('Rajkot' not in city)

@@ -1,0 +1,7 @@
+random_normal_data = rnorm(100, mean=10, sd=2)
+print(random_normal_data)
+library(tidyverse)
+data<-read.csv('d:\\statistical\\rProgramming\\Book1.csv')
+print(data)
+ggplot(data = data)
+print(ggplot(data = data, aes(x = 3, y = 5)) + geom_point())

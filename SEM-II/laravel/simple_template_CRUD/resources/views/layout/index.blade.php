@@ -1,0 +1,5 @@
+@include('layout.includedfiles.metatags')
+@include('layout.includedfiles.navbar')
+@include('layout.includedfiles.header')
+@include('layout.includedfiles.mainContent')
+@include('layout.includedfiles.footer')
